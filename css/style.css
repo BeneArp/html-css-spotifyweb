@@ -172,7 +172,30 @@ section .row{
 
 
 .cover{
-    /* debug */
+    background-color: black;
+    position: relative;
+}
+
+
+.cover i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    border: 6px solid white;
+    border-radius: 50%;
+    padding: 0.1em 0.2em 0.1em 0.3em;
+    display: none;
+}
+
+.cover:hover img{
+    opacity: 0.4;
+}
+
+.cover:hover i{
+    display: block;
 }
 
 .title{
