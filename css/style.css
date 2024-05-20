@@ -94,6 +94,8 @@ i{
 }
 
 
+
+
 #utente{
     margin-top: 0.5em;
     padding-top: 0.8em;
@@ -107,6 +109,10 @@ i{
     border-radius: 50%;
 }
 
+
+
+
+
 /* colonna destra */
 .col-dx{
     width: calc(100% - 300px);
@@ -119,6 +125,9 @@ i{
     padding-top: 90px;
 }
 
+
+
+
 /* barra superiore */
 #upgrade{
     height: 90px;
@@ -126,7 +135,18 @@ i{
     position: fixed;
     z-index: 999;
     width: 100%;
+    text-align: right;
 }
+
+#upgrade a{
+    display: inline-block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3em;
+    margin: 1.3em 18em 1em 0;
+    padding: 0.5em 2.2em;
+}
+
 
 
 
