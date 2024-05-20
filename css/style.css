@@ -115,15 +115,33 @@ i{
 
 /* colonna destra */
 .col-dx{
-    width: calc(100% - 300px);
+    width: calc(100vw - 300px);
     background-color: rgb(20 25 34);
     overflow-y: auto;
 }
 
+
+
 /* contanuto principale pagina */
 .contenuto{
-    padding-top: 90px;
+    padding: 90px 1.5em;
 }
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#categorie{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#categorie li{
+    font-weight: bold;
+}
+
 
 
 
@@ -146,7 +164,6 @@ i{
     margin: 1.3em 18em 1em 0;
     padding: 0.5em 2.2em;
 }
-
 
 
 
