@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+/* generali */
+a{
+    text-decoration: none;
+    color: rgb(108 108 108);
+}
+
+body{
+    color: rgb(108 108 108);
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 1em;
+    margin: 1.3em 0;
+}
+
+h5{
+    margin: 0.7em 0;
+    color: white;
+}
+
+
+
 
 .container{
     display: flex;
@@ -17,11 +41,50 @@
     width: 300px;
     height: calc(100vh - 90px);
     background-color: black;
+    padding: 1em 1.3em;
+}
+
+.col-menu li{
+    width: 100%;
+    margin: 0.8em 0;
+    padding-left: 0.5em;
+}
+
+.active{
+    color: rgb(210 210 210);
+}
+
+.active a{
+    color: rgb(210 210 210);
+}
+
+.font-awesome::marker{
+    font-family: "FontAwesome";
+}
+
+.home{
+    list-style: "\f015";
+}
+
+.search{
+    list-style: "\f002";
+}
+
+.collection{
+    list-style: "\f03a";
 }
 
 
 
+.fa-plus{
+    color: black;
+    background-color: rgb(108 108 108);
+    padding: 0.5em;
+}
 
+#playlists ul, #playlists ul li{
+    padding: 0;
+}
 
 /* colonna destra */
 .col-dx{
