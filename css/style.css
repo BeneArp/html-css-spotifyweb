@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.container{
+    display: flex;
+    /* debug */
+    height: calc(100vh - 90px);
+}
+
+
+/* nav barra laterale */
+.col-menu{
+    width: 300px;
+    height: calc(100vh - 90px);
+    background-color: black;
+}
+
+/* corpo principale */
+main{
+    width: calc(100% - 300px);
+    background-color: rgb(20 25 34);
+}
+
+/* barra superiore */
+#upgrade{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* barra inferiore */
+#player{
+    height: 90px;
+    background-color: rgb(40 40 40)
+}
