@@ -12,7 +12,8 @@ a{
 
 body{
     color: rgb(108 108 108);
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
 }
 
 ul{
@@ -26,7 +27,9 @@ h5{
     color: white;
 }
 
-
+i{
+    margin-right: 0.5em;
+}
 
 
 .container{
@@ -42,6 +45,10 @@ h5{
     height: calc(100vh - 90px);
     background-color: black;
     padding: 1em 1.3em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .col-menu li{
@@ -84,6 +91,20 @@ h5{
 
 #playlists ul, #playlists ul li{
     padding: 0;
+}
+
+
+#utente{
+    margin-top: 0.5em;
+    padding-top: 0.8em;
+    border-top: 1px solid rgb(108 108 108);
+}
+
+#utente i{
+    font-size: 25px;
+    background-color: rgb(108 108 108);
+    padding: 0.3em 0.4em;
+    border-radius: 50%;
 }
 
 /* colonna destra */
