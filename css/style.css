@@ -12,27 +12,45 @@
 }
 
 
-/* nav barra laterale */
+/* colonna sinistra nav */
 .col-menu{
     width: 300px;
     height: calc(100vh - 90px);
     background-color: black;
 }
 
-/* corpo principale */
-main{
+
+
+
+
+/* colonna destra */
+.col-dx{
     width: calc(100% - 300px);
     background-color: rgb(20 25 34);
+    overflow-y: auto;
+}
+
+/* contanuto principale pagina */
+.contenuto{
+    padding-top: 90px;
 }
 
 /* barra superiore */
 #upgrade{
     height: 90px;
     background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
+
+
+
+
 
 /* barra inferiore */
 #player{
     height: 90px;
     background-color: rgb(40 40 40)
 }
+
