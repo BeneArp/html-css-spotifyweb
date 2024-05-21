@@ -54,11 +54,30 @@ div img{
     width: 300px;
     height: calc(100vh - 90px);
     background-color: black;
-    padding: 1em 1.3em;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.xs-screen{
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 1em 0.2em;
+}
+
+.xs-screen i{
+    display: block;
+    margin: 1em 0;
+}
+
+.xs-screen img{
+    width: 65%;
+}
+
+.col-menu .full-screen{
+    padding: 1em 1.3em;
 }
 
 .col-menu li{
@@ -99,7 +118,8 @@ div img{
     padding: 0.5em;
 }
 
-#playlists ul, #playlists ul li{
+
+#playlists, #playlists ul, #playlists ul li{
     padding: 0;
 }
 
@@ -112,12 +132,17 @@ div img{
     border-top: 1px solid rgb(108 108 108);
 }
 
-#utente i{
+.fa-user{
     font-size: 25px;
     background-color: rgb(108 108 108);
     padding: 0.3em 0.4em;
     border-radius: 50%;
 }
+
+.fa-user .xs-screen{
+    
+}
+
 
 
 

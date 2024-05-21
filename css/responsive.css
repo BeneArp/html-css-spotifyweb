@@ -31,3 +31,29 @@
     }
     
 }
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+    .col-menu{
+        width: 50px;
+    }
+
+    .col-menu .full-screen{
+        display: none;
+    }
+
+    .col-dx{
+        width: calc(100vw - 50px);
+    }
+
+    #upgrade{
+        width: calc(100vw - 50px);
+    }
+
+    .xs-screen{
+        display: block;
+    }
+}
