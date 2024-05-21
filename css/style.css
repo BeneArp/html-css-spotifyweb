@@ -144,10 +144,6 @@ div img{
     gap: 15px;
 }
 
-#categorie{
-    width: 50%;
-    margin: 0 auto;
-}
 
 #categorie li{
     font-weight: bold;
@@ -240,7 +236,7 @@ section .row{
     background-color: rgb(40 40 40);
     justify-content: flex-start;
     justify-content: space-between;
-    padding: 1.5em 0.5em;
+    padding: 1.5em 1em;
     font-size: 14px;
 }
 

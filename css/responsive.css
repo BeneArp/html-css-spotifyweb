@@ -1,0 +1,33 @@
+@media screen and (max-width: 1270px) {
+
+    #categorie .row{
+        flex-wrap: wrap;
+    }
+
+    .song{
+        width: calc(100% / 4 - 15px);
+    }
+
+    .artist{
+        width: 25%;
+    }
+    
+    .laterale{
+        width: 30%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+    .song{
+        width: calc(100% / 2 - 15px);
+    }
+
+    .artist{
+        width: 45%;
+    }
+    
+}
