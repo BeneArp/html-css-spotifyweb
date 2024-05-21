@@ -139,9 +139,7 @@ div img{
     border-radius: 50%;
 }
 
-.fa-user .xs-screen{
-    
-}
+
 
 
 
@@ -192,6 +190,10 @@ section .row{
     height: fit-content;
 }
 
+.cover img{
+    display: block;
+}
+
 
 .fa-play{
     color: white;
@@ -199,22 +201,23 @@ section .row{
     border-radius: 50%;
 }
 
-.cover i{
+.shadow i{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 60px;
     padding: 0.1em 0.2em 0.1em 0.3em;
+}
+
+.shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
     display: none;
-}
-
-.cover:hover img{
-    opacity: 0.5;
-}
-
-.cover:hover i{
-    display: block;
 }
 
 .title{
