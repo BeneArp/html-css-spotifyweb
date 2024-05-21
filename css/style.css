@@ -233,6 +233,38 @@ section .row{
 /* barra inferiore */
 #player{
     height: 90px;
-    background-color: rgb(40 40 40)
+    background-color: rgb(40 40 40);
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding: 1.5em 0.5em;
+    font-size: 14px;
+}
+
+#player .row{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#player h4{
+    font-size: 14px;
+    color: white;
+}
+
+.laterale{
+    width: 20%;
+}
+
+#pic{
+    width: 10%;
+}
+
+#details{
+    width: 40%;
+    gap: 25px;
+}
+
+#centro{
+    width: 50%;
 }
 
