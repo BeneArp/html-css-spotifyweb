@@ -34,6 +34,7 @@ h2{
 
 i{
     margin-right: 0.5em;
+    cursor: pointer;
 }
 
 div img{
@@ -171,15 +172,18 @@ section .row{
 }
 
 
+.fa-play{
+    color: white;
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
 .cover i{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
     font-size: 60px;
-    border: 6px solid white;
-    border-radius: 50%;
     padding: 0.1em 0.2em 0.1em 0.3em;
     display: none;
 }
@@ -264,9 +268,45 @@ section .row{
     gap: 25px;
 }
 
+
+
+
 #centro{
     width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 10px;
 }
+
+#centro .icons{
+    margin-bottom: 0.5em;
+}
+
+#centro .icons i{
+    margin: 0 1em;
+    font-size: 16px;
+}
+
+#centro .barra .white{
+    width: 100px;
+}
+
+#centro .barra .black{
+    width: 300px;
+}
+
+#centro .barra{
+    display: inline-block;
+    margin: 0 1.2em;
+}
+
+#centro .fa-play{
+    border: 3px solid white;
+    padding: 0.3em 0.4em 0.3em 0.5em;
+}
+
+
+
 
 
 #dx{
@@ -286,6 +326,7 @@ section .row{
     display: inline-block;
     height: 4px;
     margin-left: -4px;
+    cursor: pointer;
 }
 
 .barra .white{
