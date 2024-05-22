@@ -61,11 +61,31 @@ div img{
 }
 
 .full-screen{
-    height: 60%;
+    
 }
 
-#dati-profilo{
-    height: 15%;
+#bottom-cell{
+    flex-shrink: 0;
+    background-color: black;
+}
+
+#up-cell{
+    flex-shrink: 3;
+    max-height: 65%;
+    /* debug */
+    background-color: darkcyan;
+}
+
+
+#up-cell div{
+    
+    /* debug */
+    background-color: rebeccapurple;
+    border: 2px solid yellowgreen;
+}
+
+#playlists{
+    max-height: 50%;
 }
 
 .xs-screen{
@@ -128,13 +148,11 @@ div img{
     padding: 0;
 }
 
-#playlists{
-    height: 50%;
-}
+
 
 #playlists ul{
-    max-height: 100%;
     overflow-y: auto;
+    /* debug */
 }
 
 #utente{
