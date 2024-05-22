@@ -360,6 +360,11 @@ section .row{
 
 }
 
+#dx .barra .indicatore{
+    top: 4.5px;
+    left: 14%;
+}
+
 .barra span{
     display: inline-block;
     height: 4px;
