@@ -60,32 +60,18 @@ div img{
     justify-content: space-between;
 }
 
-.full-screen{
-    
-}
 
 #bottom-cell{
-    flex-shrink: 0;
     background-color: black;
 }
 
 #up-cell{
-    flex-shrink: 3;
     max-height: 65%;
-    /* debug */
-    background-color: darkcyan;
-}
-
-
-#up-cell div{
-    
-    /* debug */
-    background-color: rebeccapurple;
-    border: 2px solid yellowgreen;
 }
 
 #playlists{
-    max-height: 50%;
+    height: 50%;
+    overflow-y: auto;
 }
 
 .xs-screen{
@@ -110,7 +96,7 @@ div img{
 
 .col-menu li{
     width: 100%;
-    margin: 0.8em 0;
+    margin: 0.7em 0;
     padding-left: 0.5em;
 }
 
@@ -148,12 +134,6 @@ div img{
     padding: 0;
 }
 
-
-
-#playlists ul{
-    overflow-y: auto;
-    /* debug */
-}
 
 #utente{
     margin-top: 0.5em;
