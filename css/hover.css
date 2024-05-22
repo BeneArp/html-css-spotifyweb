@@ -1,9 +1,15 @@
+/* ombra hover su copertine canzoni */
 .cover:hover .shadow{
     display: block;
 }
 
-
+/* grandezza hover su upgrade */
 #upgrade a:hover{
     transform: scale(1.1);
     margin-right: 2.5em;
+}
+
+/* cambio colore hover su li div categorie */
+#categorie li:hover a{
+    color: white;
 }
