@@ -13,3 +13,31 @@
 #categorie li:hover a{
     color: white;
 }
+
+/* cambio colore hover colonna sinistra */
+.col-menu li:hover a{
+    color: white;
+}
+
+.col-menu li:hover{
+    color: white;
+}
+
+.col-menu span:hover{
+    color: white;
+}
+
+/* cambio colore hover barra inferiore */
+#player #details span:hover, #player #details i:hover{
+    color: white;
+}
+
+#player #details span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* grandezza icone play nella barra inferiore */
+.icons .fa-play:hover{
+    transform: scale(1.1);
+}
