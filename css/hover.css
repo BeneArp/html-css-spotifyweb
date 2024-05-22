@@ -27,11 +27,17 @@
     color: white;
 }
 
+.fa-plus:hover{
+    background-color: white;
+}
+
+
 /* cambio colore hover barra inferiore */
 #player #details span:hover, #player #details i:hover{
     color: white;
 }
 
+/* cambio colore sfondo icona + */
 #player #details span:hover{
     text-decoration: underline;
     cursor: pointer;
@@ -42,6 +48,7 @@
     transform: scale(1.1);
 }
 
+/* comparsa indicatore in hover */
 .barra:hover .indicatore{
     display: block;
 }

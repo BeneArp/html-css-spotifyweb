@@ -60,6 +60,14 @@ div img{
     justify-content: space-between;
 }
 
+.full-screen{
+    height: 60%;
+}
+
+#dati-profilo{
+    height: 15%;
+}
+
 .xs-screen{
     display: none;
     color: white;
@@ -110,20 +118,24 @@ div img{
     list-style: "\f03a";
 }
 
-
-
 .fa-plus{
     color: black;
-    background-color: rgb(108 108 108);
+    background-color: rgb(210 210 210);
     padding: 0.5em;
 }
-
 
 #playlists, #playlists ul, #playlists ul li{
     padding: 0;
 }
 
+#playlists{
+    height: 50%;
+}
 
+#playlists ul{
+    max-height: 100%;
+    overflow-y: auto;
+}
 
 #utente{
     margin-top: 0.5em;
@@ -169,6 +181,13 @@ div img{
 
 #categorie li{
     font-weight: bold;
+}
+
+.current-category div{
+    height: 2px;
+    width: 50px;
+    background-color: rgb(173 255 47);
+    margin: 0 auto;
 }
 
 section .row{
