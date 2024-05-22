@@ -345,6 +345,19 @@ section .row{
 .barra{
     padding-bottom: 0.4em;
     width: 40%;
+    position: relative;
+}
+
+.indicatore{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    left: 15%;
+    display: none;
+
 }
 
 .barra span{
