@@ -56,4 +56,13 @@
     .xs-screen{
         display: block;
     }
+
+    #centro .icons i{
+        margin: 0 0.5em;
+        font-size: 16px;
+    }
+
+    #centro{
+        width: 45%;
+    }
 }
